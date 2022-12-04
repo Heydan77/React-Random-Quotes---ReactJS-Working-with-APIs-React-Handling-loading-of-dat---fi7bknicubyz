@@ -44,10 +44,9 @@ const App = () => {
     })
   }
 
-  useEffect(()=>{
-    fetchData()
-  },[getNext])
 
+
+  useEffect(()=>{
   const clickHandler = () =>{
     setNext(getNext + 1)
     if(count<10){
